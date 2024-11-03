@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use('/', router);
 
-router.get('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
