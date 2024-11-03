@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/api', (req, res) => {
-  res.json({ message: 'Hello again from Express!' })
+  res.json({ message: 'work please' })
 })
 
 module.exports = app
